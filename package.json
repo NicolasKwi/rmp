@@ -1,0 +1,14 @@
+{
+  "name": "nmp",
+  "version": "1.0.0",
+  "description": "site rm",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/stylepre"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.4"
+  }
+}

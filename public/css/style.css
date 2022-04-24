@@ -1,0 +1,247 @@
+@media (max-width: 767.98px) {
+  #photo1,
+  #photo2,
+  #photo3,
+  #photo4 {
+    float: none;
+    margin: 50px auto 30px auto;
+  }
+}
+@media (max-width: 1050px) {
+  .entetepage {
+    flex-direction: column;
+  }
+  .nomauteur {
+    order: 2;
+  }
+  .titrelivre {
+    order: 1;
+  }
+
+  .contact-epp {
+    order: 3;
+    align-self: end;
+  }
+}
+
+/*init*/
+* {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(78, 68, 53);
+  text-align: justify;
+}
+h3 {
+  font-size: 1.1rem;
+}
+p {
+  text-indent: 50px;
+}
+p::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(240, 236, 228);
+  min-width: 351px;
+
+  /*background-image: url("../images/paper_texture_08.png");
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-position: top;*/
+}
+/*header*/
+header {
+  background-image: url("../images/ecrivain.jpg");
+
+  background-size: auto 110%;
+  background-position: center bottom var(--parallaxY, 0px);
+  height: auto;
+
+  padding: 0 !important;
+}
+.entetepage {
+  background-color: rgba(255, 255, 255, 0.74);
+}
+/*.entetepage div {
+  border: 1px solid black;
+}*/
+.entetepage h1 {
+  text-align: center;
+}
+
+/*.titrelivre {
+}*/
+
+.contact-epp {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+/*.contactmailtel {
+}*/
+.contactmailtel span {
+  font-size: 1.5rem;
+}
+
+.photosepage {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.imglivre1 {
+  position: relative;
+  max-width: 200px !important;
+  top: 20px;
+}
+/* header fin*/
+
+.bandeau-espace {
+  /*height: 100px;*/
+  position: relative;
+  padding: 50px;
+  background-color: white;
+  z-index: -1;
+}
+.imgbandeau1 {
+  height: 150px;
+}
+.bandeau-espace img {
+  margin: 10px 20px;
+}
+.bandeau-espace q {
+  margin: 10px 20px;
+  text-indent: 50px;
+  max-width: 800px;
+  color: rgb(31, 49, 63);
+  /*min-width: 300px;*/
+}
+
+.top,
+.middle,
+.bottom {
+  /*margin: 70px auto;*/
+
+  background-image: url("../images/paper_texture_08.jpg");
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-position: top;
+
+  /* border: 1px solid rgba(0, 0, 0, 0);*/
+  border-left: 1px solid rgba(78, 68, 53, 0.171);
+  border-right: 1px solid rgba(78, 68, 53, 0.171);
+
+  /*border-radius: 10px 10px 10px 10px; jpg */
+}
+.imgtop1 {
+  float: right;
+  display: block;
+  max-width: 300px !important;
+  width: 100%;
+  margin: 50px 50px 30px 50px;
+}
+
+.top p {
+  margin: 20px;
+}
+
+.bandeau-espace2 {
+  position: relative;
+
+  /*height: 250px;*/
+  /*background-color: rgb(240, 236, 228);*/
+  background-color: white;
+  box-shadow: inset 0 0.5rem 1rem rgba(0, 0, 0, 0.15),
+    inset 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.bandeau-espace2 img {
+  width: 100%;
+  min-width: 100px;
+  /* box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);*/
+}
+.bandeau-espace2 .col {
+  height: auto;
+}
+/*.bandeau-espace2 .cadrephoto {
+   border: 10px ridge rgba(78, 68, 53, 0.5);
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.377);
+}*/
+.albumphoto1 {
+  transform: rotate(-4deg);
+}
+.albumphoto2 {
+  transform: rotate(-1deg);
+}
+.albumphoto3 {
+  transform: rotate(3deg);
+}
+.albumphoto4 {
+  transform: rotate(4deg);
+}
+.albumphoto5 {
+  transform: rotate(-4deg);
+}
+
+/*.middle {
+}*/
+.middle .livrephoto1 {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto 20px auto;
+}
+.livrephoto2 {
+  float: right;
+  display: block;
+  max-width: 300px !important;
+  width: 100%;
+  margin: 50px 50px 30px 50px;
+}
+.livrephoto3 {
+  float: left;
+  display: block;
+  max-width: 300px !important;
+  width: 100%;
+  margin: 50px 50px 30px 50px;
+}
+.livrephoto4 {
+  float: right;
+  display: block;
+  max-width: 400px !important;
+  width: 100%;
+  margin: 50px 50px 30px 50px;
+}
+
+.bandeau-espace3 {
+  position: relative;
+  padding: 60px;
+  background-color: white;
+  box-shadow: inset 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1),
+    inset 0 -0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+.contactezmoi h2 {
+  text-align: center;
+}
+.contactezmoi-info {
+  text-align: center;
+}
+.contactezmoi-info::first-letter {
+  font-size: large;
+  font-weight: initial;
+}
+
+footer {
+  padding: 30px 0px 0px 0px !important;
+  /*height: 100px;*/
+  background-color: white;
+  box-shadow: inset 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+footer .footer-conteneur {
+  /* background-color:  rgba(255, 255, 255, 0.74);*/
+  background-color: rgba(128, 128, 128, 0.068);
+}
