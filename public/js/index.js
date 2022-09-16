@@ -20,7 +20,7 @@ const Scroll_pre = () => {
   }
 };
 
-let interval_Slide = setInterval(Scroll_sui, 7000);
+/*let interval_Slide = setInterval(Scroll_sui, 7000);*/
 
 btn_sui_Scroll.onclick = function () {
   Scroll_sui();
