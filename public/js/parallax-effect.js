@@ -20,8 +20,8 @@ de l'écran, et on applique un translateY en fonction.
 - Parallax.bind()
 
 - data-parallax="0.2"
-- data-parallax='{"y":0.2, "r":0.2}' --> r=Rotate
-- data-parallax='{"y":0.2, "r":0.2, "variable":true}' --> r=Rotate
+- data-parallax='{"y":0.2', "r":0.2}' --> r=Rotate
+
 
 ##Utilisation
 
@@ -32,9 +32,6 @@ de l'écran, et on applique un translateY en fonction.
 - ajouter variable css (var(--parallaxY, 0px)  --> veut dire 
 mettre --parallaxY si existe pas mettre 0px) dans une position d'un element
 genre --> bottom var(--parallaxY, 0px)
-
-
-
 
 */
 

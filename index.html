@@ -4,351 +4,530 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Roger Mathieu - Pardine</title>
 
-    <link rel="stylesheet" href="./public/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./public/css/style.css" />
-    <script src="./helpers/parallax-effect-min.js" defer></script>
-  
+
+    <script src="./public/js/parallax-effect-min.js" defer></script>
+    <script src="./public/js/index.js" defer></script>
   </head>
   <body>
-    <header
-      class="container-fluid shadow"
-      data-parallax='{"y":-0.2, "variable":true}'
-    >
-      <div
-        class="entetepage shadow container-fluid d-flex justify-content-around align-items-center flex-wrap"
-      >
-        <div class="nomauteur p-2 m-3">Autobiographie de Roger Mathieu</div>
-        <div
-          class="titrelivre flex-grow-1 p-2 m-3 d-flex flex-column justify-content-around align-items-center flex-wrap"
-        >
-          <h1 class="h1">Pardine</h1>
-          <h2 class="h2">"Solidarité Internationale"</h2>
+    <header>
+      <div class="container-header" data-parallax='{"y":-0.3, "variable":true}'>
+        <!---->
+        <div class="bandeau_entete">
+          <div class="def-auteur">
+            Autobiographie de <span>Roger Mathieu</span>
+          </div>
+          <div class="titre-livre">
+            <h1>
+              <span class="s-h1">Pardine</span>
+              <span class="s-h1">"Solidarité Internationale"</span>
+            </h1>
+          </div>
+          <div class="contact-auteur">
+            <div>Me contacter :</div>
+            <a class="mail-entete" href="mailto:mathieuroger30@gmail.com"
+              ><span>✉</span>mathieuroger30@gmail.com</a
+            >
+            <a href="tel:+33614471114"><span>✆</span>06.14.47.11.14</a>
+          </div>
         </div>
-
-        <div
-          class="contact-epp p-3 m-3 d-flex flex-column justify-content-around align-items-start flex-wrap"
-        >
-          <h3 class="">Me contacter :</h3>
-          <a
-            class="contactmailtel d-block text-decoration-none text-center"
-            href=""
-            ><span class="link-primary">&#9993;</span> roger-mathieu@mail.com</a
-          >
-          <a
-            class="contactmailtel d-block text-decoration-none align-middle"
-            href=""
-          >
-            <span class="link-primary">&#9990;</span> 06.10.11.12.13</a
-          >
+        <div class="entete-espace" style="height: 150px"></div>
+        <div class="livre-pardine">
+          <div class="contenu-livre">
+            <div class="livre">
+              <div class="couverture">
+                <img src="./public/img/livre-si.webp" alt />
+              </div>
+              <div class="livre-gauche"></div>
+            </div>
+            <div class="details-livre">
+              <p>(Auto-édition)</p>
+              <p>351 pages</p>
+              <p>Prix : 15€</p>
+            </div>
+          </div>
+          <div class="synopsis">
+            <div class="synopsis-container">
+              <img
+                src="./public/img/pardin1.webp"
+                alt=""
+                class="img-pardine-couverture"
+              />
+              <div class="quotesyno">
+                <blockquote>
+                  "L'amitié, la solidarité internationale sont au cœur de cette
+                  biographie où l'auteur, marqué dans sa jeunesse par la
+                  précarité sociale et la maladie, rebondit avec énergie et
+                  s'engage dans une lutte de plus de soixante ans aux côtés des
+                  Immigrés et des peuples du Sud.
+                </blockquote>
+                <blockquote>
+                  Par son témoignage, il nous délivre avec sa verve méridionale
+                  une belle leçon de vie, en menant de concert actions
+                  militantes, rencontres sentimentales et le suivi aimant du
+                  parcours de ses enfants et petits-enfants."
+                </blockquote>
+              </div>
+              <!-- <br />&emsp;&emsp;&emsp;&ensp; -->
+            </div>
+          </div>
+        </div>
+        <div class="vente-livre">
+          <h2>Commander mon autobiographie "Pardine"</h2>
+          <p>
+            Pour commander un exemplaire, merci de me contacter par mail:
+            <a href="mailto:mathieuroger30@gmail.com"
+              ><span>mathieuroger30@gmail.com</span></a
+            >
+            ou par telephonne:
+            <a href="tel:+33614471114"><span>06.14.47.11.14</span></a
+            >.
+          </p>
+        </div>
+        <div class="entete-espace" style="height: 100px"></div>
+      </div>
+      <div class="revue-presse" style="background-color: white">
+        <h3>Pardine - sur internet :</h3>
+        <div class="revue-presse-conteneur">
+          <figure>
+            <div class="figure-titre">
+              <a
+                href="https://www.lereveildumidi.fr/culture-et-terroir/culture/livre-roger-mathieu-une-vie-fraternelle-sans-concession"
+                target="_blank"
+              >
+                <q>Roger Mathieu, une vie fraternelle, sans concession</q>
+              </a>
+            </div>
+            <figcaption>
+              - Article de <cite>S.Ichmart</cite> pour
+              <a
+                href="https://www.lereveildumidi.fr"
+                target="_blank"
+                style="text-decoration: none"
+              >
+                <cite>le reveil du midi</cite></a
+              >.
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="figure-titre">
+              <a
+                href="https://radioallianceplus.fr/audio/pardine-solidarites-internationales/"
+                target="_blank"
+              >
+                <q>Pardine – Solidarités Internationales</q>
+              </a>
+            </div>
+            <figcaption>
+              - Emission de <cite>Christian Delord</cite> pour
+              <a href="https://radioallianceplus.fr/" target="_blank">
+                <cite>radio alliance plus</cite></a
+              >.
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="figure-titre">
+              <a
+                href="https://blogs.mediapart.fr/philippe-corcuff/blog/090321/vies-peu-ordinaires-de-militants-ordinaires-roger-mathieu-et-gerard-perrier"
+                target="_blank"
+              >
+                <q
+                  >Vies peu ordinaires de militants ordinaires: Roger Mathieu et
+                  Gérard Perrier</q
+                >
+              </a>
+            </div>
+            <figcaption>
+              - Billet de blog de <cite>Philippe Corcuff</cite> pour
+              <a href="https://blogs.mediapart.fr/" target="_blank">
+                <cite>le Club de Mediapart</cite></a
+              >.
+            </figcaption>
+          </figure>
         </div>
       </div>
-
       <div
-        class="container d-flex justify-content-center align-items-center photosepage p-5"
+        style="
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
       >
-        <img
-          src="./public/images/livre-si.jpg"
-          class="img-thumbnail imglivre1 shadow-lg"
-          alt="..."
-          data-parallax="-0.2"
+        <hr
+          style="
+            height: 1px;
+            width: 50%;
+            border-width: 0;
+            color: gray;
+            background-color: gray;
+          "
         />
       </div>
     </header>
-
-    <div class="bandeau-espace container-fluid">
+    <div class="main">
+      <section class="presentation">
+        <!-- Debut slider-->
+        <div class="slider">
+          <div id="pre-slide"><</div>
+          <div id="sui-slide">></div>
+          <div class="slides" id="slides_conteneur">
+            <!--Debut slide d'image-->
+            <div class="slide first">
+              <img src="./public/img/rogerm/Top-020.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/Top-095.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/Top-003.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/Top-089.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/numérisation0011-001.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/200703_LCN7422w.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/20170501_121341.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/numérisation0022-004.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/Top-038.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/Top-055.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/photos Roger0037.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/numérisation0047-001.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/img20220817_17135939.webp" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./public/img/rogerm/WP_20160126_004-001.webp" alt="" />
+            </div>
+            <!--Fin slide d'image-->
+          </div>
+        </div>
+        <!-- Fin slider-->
+        <!-- <div class="presentation-galerie">
+          <div class="presentation-galerie-conteneur">
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/Top-020.jpg"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/Top-095.jpg"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/20170501_121341.jpg"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/WP_20170429_004.JPG"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/numérisation0047-001.JPG"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/Top-003.jpg"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/WP_20160126_004-001.JPG"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/photos Roger0037.jpg"
+              /></a>
+            </div>
+            <div class="tas-photo">
+              <a href="" class="pres-photo">
+                <img src="./public/img/rogerm/img20220817_17135939.jpg"
+              /></a>
+            </div>
+          </div>
+        </div>-->
+        <div class="presentation-texte">
+          <div class="presentation-texte-conteneur">
+            <!--  <div class="galerie">
+              <div><img src="./public/img/pardin1.jpg" alt="" /></div>
+              <div><img src="./public/img/roger-mathieu.jpg" alt="" /></div>
+              <div>
+                <img src="./public/img/rogerm/200703_LCN7422w.jpg" alt="" />
+              </div>
+              <div>
+                <img src="./public/img/rogerm/20170501_121341.jpg" alt="" />
+              </div>
+            </div>-->
+            <img
+              class="photo-roger"
+              src="./public/img/roger-mathieu.webp"
+              alt="Roger Mathieu"
+            />
+            <p>
+              L’idée d’<strong>écrire un livre</strong> à germé au détour d’une
+              discussion anodine entre amis et a vite pris l’allure d’une
+              parlotte sans lendemain. <br />Je me sentais incapable d’écrire un
+              livre, et encore moins une autobiographie qui revisiterait
+              l’ensemble de ma vie.
+            </p>
+            <p>
+              Oui, mais cette idée, une fois ancrée dans un coin de ma tête,
+              devient de plus en plus présente et je décide un jour par bravade
+              de <strong>tenter l’aventure</strong>... Je noircis au stylo
+              quelques feuillets manuscrits que je pose sur le coin de ma
+              table...<br />
+              Pendant deux ans, je gratte ainsi le papier, raye des phrases,
+              reprend une feuille pour écrire au propre un évènement marquant de
+              ma vie.
+            </p>
+            <p>
+              Par chance, je ne suis <strong>pas seul</strong> dans cette
+              épreuve, un ami Toulousain <strong>Denis Pincemaille</strong>,
+              accepte de faire équipe avec moi. Je lui fournis ainsi ma vie "en
+              pièce détachées", et il me donne son point de vue avant de saisir
+              mes textes sur son ordinateur et de les repartir dans des
+              chapitres. <br />L’écriture de ma vie me plonge parfois dans des
+              moments de déprime, mais il est toujours là pour me remettre en
+              selle, « Ta biographie va faire un tabac » m’assure-t-il, et je
+              repars sur l’écriture de mon livre. <br />Ce n’est pas facile de
+              revenir des années en arrière, de consulter ses archives
+              personnelles, d’interroger ses proches. Comme des bulles de savon,
+              <strong>les souvenirs</strong> remontent cependant à la surface,
+              et je les capture avec mon filet à papillons avant qu’ils ne
+              disparaissent à nouveau. Certains me sont chers, et alors des
+              larmes coulent sur mes écrits comme pour les noyer à nouveau.
+            </p>
+            <p>
+              Aujourd’hui, comme l’avait prévue Denis,
+              <strong class="color-bleu">PARDINE</strong> est un livre qui a
+              effectivement fait un tabac, au-delà de mes espérances. Mes
+              filles, ma famille m’ont fait des
+              <strong>retours très touchants</strong>.<br />
+              Mes amis(es), mais aussi des anonymes, m’ont écrits des courriers
+              d’une <strong>incroyable gentillesse</strong> avec des messages
+              parfois surprenants dont certains doit être publiés. <br />
+              Comme l’a écrit je ne sais plus qui, et je fais mienne cette
+              phrase « Si tu ne te sens pas capable de le faire, et bien fait le
+              »...<strong> Je l’ai fait</strong>.
+            </p>
+          </div>
+        </div>
+        <div
+          style="
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <hr
+            style="
+              height: 1px;
+              width: 50%;
+              border-width: 0;
+              color: gray;
+              background-color: gray;
+            "
+          />
+        </div>
+      </section>
+      <section class="apercu">
+        <h2>Resumer/aperçu/extrait</h2>
+        <div class="apercu-conteneur">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum
+            maxime asperiores itaque quod molestias, debitis sed sequi dolore
+            beatae amet qui magni ipsam ab reprehenderit deleniti possimus dolor
+            temporibus labore quibusdam facere hic sint obcaecati! Deserunt
+            commodi assumenda asperiores, voluptate mollitia magnam nobis
+            exercitationem ab sunt autem aliquam porro aut sed corrupti quos
+            blanditiis quod nisi deleniti molestias, ducimus suscipit est.
+            Necessitatibus, quos atque nulla in doloribus laudantium. Sapiente
+            qui hic doloremque nulla! Amet adipisci aut, odio repellat maxime
+            corrupti non expedita optio saepe ab, ullam, odit error. Ipsum vel
+            officia recusandae. Nobis placeat voluptas in corrupti quod, odio
+            eveniet qui sequi assumenda impedit repellendus expedita dolorem
+            dolore harum hic. Eius expedita tempore laborum numquam similique
+            voluptatem impedit iusto est commodi voluptatum? Itaque delectus
+            quaerat mollitia dolor
+          </p>
+          <p>
+            nihil tenetur ab facilis suscipit autem est quam possimus dolore
+            officia aperiam laboriosam, asperiores, quas ratione fuga porro.
+            Iste corrupti ipsum modi, perspiciatis ullam provident suscipit
+            laboriosam repellendus quod possimus. Quibusdam pariatur sed labore,
+            quod, repellendus sunt corrupti sequi ipsa aperiam perspiciatis
+            deserunt rerum ratione aliquam odit error eligendi quam modi
+            voluptate est laborum corporis. Sapiente consequuntur eos quibusdam
+            corporis dolores voluptas facilis nihil assumenda similique iure
+            minus temporibus, magnam explicabo accusamus minima, cum, et
+            distinctio maxime debitis inventore aperiam ullam asperiores! Dolor
+            porro doloremque dolore ipsum voluptas commodi, esse eveniet
+            voluptatibus pariatur officia ut, quas laboriosam nostrum? Cum
+            facilis doloribus odit
+          </p>
+          <p>
+            non aliquam qui asperioresnulla voluptates? Fugit, animi, nobis
+            consequuntur dicta sunt possimus harum amet, autem perspiciatis
+            omnis ullam officia assumenda accusamus deleniti commodi iusto esse
+            repellendus mollitia quos provident recusandae tempore labore magni
+            odio. Fugiat, eaque repellendus reprehenderit quis alias soluta,
+            repellat animi iure quidem assumenda ullam blanditiis vel fuga
+            consectetur. Tempora dolores error magni eveniet natus corporis
+            saepe sapiente voluptatum. Quaerat similique ipsum culpa ex quo
+            accusamus eius a at quidem, cum odit facilis quos, ab nemo maxime,
+            dicta molestias sit perferendis aliquam quibusdam fugiat animi
+            commodi molestiae. Perferendis temporibus incidunt quam officia
+            adipisci ipsam facere maiores, obcaecati ex saepe a impedit quae
+            quasi expedita, sequi voluptatum! Quasi exercitationem rerum aliquam
+            id, maxime in consequuntur. Debitis, rem soluta.
+          </p>
+        </div>
+      </section>
       <div
-        class="container d-flex justify-content-center align-items-center flex-wrap"
+        style="
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
       >
-        <img
-          src="./public/images/pardin1.jpg"
-          class="shadow-lg imgbandeau1"
-          alt="..."
+        <hr
+          style="
+            height: 1px;
+            width: 50%;
+            border-width: 0;
+            color: gray;
+            background-color: gray;
+          "
         />
-        <q
-          > L'amitié, la solidarité internationale sont au cœur de cette
-          biographie où l'auteur, marqué dans sa jeunesse par la précarité
-          sociale et la maladie, rebondit avec énergie et s'engage dans une
-          lutte de plus de soixante ans aux côtés des Immigrés et des peuples du
-          Sud.<br />&emsp;&emsp;&emsp;&ensp; Par son témoignage, il nous délivre avec sa verve méridionale une
-          belle leçon de vie, en menant de concert actions militantes,
-          rencontres sentimentales et le suivi aimant du parcours de ses enfants
-          et petits-enfants. </q
-        >
       </div>
-    </div>
-
-    <section class="top container clearfix shadow p-5">
-      <h2>(info pour roger : presentation)</h2>
-      <img
-        id="photo1"
-        src="./public/images/roger-mathieu.jpg"
-        class="shadow-lg imgtop1"
-        alt="..."
-      />
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo
-        veritatis quia at aliquid pariatur unde, laboriosam ut ducimus
-        doloremque adipisci facere! Error itaque, placeat recusandae, excepturi
-        voluptate similique enim inventore unde saepe facilis voluptatem ab
-        quasi quod eius delectus, aspernatur fuga. Eum velit reiciendis tempora
-        cumque, ex, quibusdam ad quas nostrum illum consectetur quia qui aliquam
-        doloribus nam! Eum illum, provident tempora accusamus possimus inventore
-        dolorum fugiat beatae maxime dicta sequi laborum modi eos, quam corrupti
-        tenetur sed voluptates? Similique quaerat reprehenderit, animi assumenda
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-        cupiditate qui saepe ratione quasi corporis aperiam enim error officia
-        aliquam adipisci in at aut tempore voluptate magnam eos nostrum! Facere,
-        vero voluptatum dicta est nemo soluta beatae suscipit eum quisquam
-        corporis assumenda sequi natus nam repellendus molestiae nostrum
-        architecto asperiores magnam? Molestiae reprehenderit vitae voluptates
-        quod illo quos, ullam aspernatur, asperiores, nobis error autem sequi.
-        Laudantium nulla ipsum nemo a facere voluptatum ex nobis exercitationem
-        quo harum consequatur, eveniet atque officiis libero, aliquam, aut
-        repudiandae ab ipsam eaque dignissimos ullam? Enim veniam facere est
-        maiores architecto accusantium quisquam at voluptatem officiis nihil
-        odit alias, itaque repellat in deleniti illo autem ducimus optio
-        doloribus minus. Id dolorum, iure similique excepturi deleniti velit
-        dolores ipsum doloremque, amet quasi deserunt provident molestiae.
-        Assumenda debitis incidunt at vitae adipisci temporibus quae odio cum
-        laudantium quo harum qui repudiandae, autem tempora perspiciatis minima
-        molestiae quod provident accusamus eveniet corrupti! Eaque facilis a
-        rerum autem perspiciatis accusantium quos ab harum at ratione obcaecati
-        mollitia, aspernatur quo omnis nobis id quaerat quibusdam similique
-        ullam, numquam eum dicta cupiditate eos? Delectus, asperiores aut!
-        Laudantium, harum et maxime quibusdam expedita corrupti? Sit aliquam
-        quibusdam deserunt ratione cupiditate et ipsa.
-      </p>
-    </section>
-
-    <div class="container-fluid bandeau-espace2">
-      <div class="container cadrephoto">
-        <div
-          class="row align-items-center justify-content-around row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 p-5 g-3"
-        >
-          <div class="col">
-            <img
-              src="./public/images/pardin1.jpg"
-              class="img-thumbnail shadow albumphoto1"
-              alt="..."
-            />
-          </div>
-          <div class="col-3">
-            <img
-              src="./public/images/preslivre.jpg"
-              class="img-thumbnail shadow albumphoto2"
-              alt="..."
-            />
-          </div>
-          <div class="col-5">
-            <img
-              src="./public/images/watch-gf99d7460d_1920.jpg"
-              class="img-thumbnail shadow albumphoto3"
-              alt="..."
-            />
-          </div>
-          <div class="col-6">
-            <img
-              src="./public/images/children-g1d9992449_1920.jpg"
-              class="img-thumbnail shadow albumphoto4"
-              alt="..."
-            />
-          </div>
-          <div class="col">
-            <img
-              src="./public/images/book-1.jpg"
-              class="img-thumbnail shadow albumphoto5"
-              alt="..."
-            />
-          </div>
+      <div class="vente-livre-bas">
+        <div>
+          <h2>Commander mon autobiographie "Pardine"</h2>
+          <p>
+            Pour commander un exemplaire, merci de me contacter par mail:
+            <a href="mailto:mathieuroger30@gmail.com"
+              ><span>mathieuroger30@gmail.com</span></a
+            >
+            ou par telephonne:
+            <a href="tel:+33614471114"><span>06.14.47.11.14</span></a
+            >.
+          </p>
         </div>
       </div>
-    </div>
-
-    <section class="middle container clearfix shadow p-5">
-      <h2>(info pour roger : livre)</h2>
-      <img
-        src="./public/images/preslivre.jpg"
-        class="shadow-lg livrephoto1"
-        alt="..."
-      />
-      <p>
-        Porem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
-        sunt mollitia consectetur perspiciatis vel, rerum optio atque
-        praesentium aperiam dicta eius facere qui, obcaecati quis provident,
-        commodi nihil! Iusto voluptates, eum atque vero aliquam ad reiciendis
-        dolorem odit id assumenda illum cumque recusandae possimus eius
-        dignissimos doloremque accusantium ipsum, earum perspiciatis dicta harum
-        voluptatibus nulla. Quia doloremque, nostrum voluptate nulla voluptatum,
-        perferendis est excepturi suscipit et illum nemo mollitia vitae ab
-        nesciunt eius? Quidem quaerat nemo illum officia debitis, eius illo.
-        Architecto natus ex laudantium tenetur facilis laboriosam modi eius
-        ullam praesentium voluptatem. Perspiciatis sapiente nobis explicabo quas
-        magnam aliquid neque accusantium dolorum? Tenetur vitae quis, rem neque
-        unde voluptate consequatur a perspiciatis et porro dolore minima,
-        asperiores commodi rerum laboriosam, ratione accusantium harum suscipit
-        libero quibusdam? Atque dolorem aut molestiae esse, sequi mollitia
-        dignissimos corrupti corporis ipsam asperiores non tenetur aspernatur
-        natus similique autem placeat recusandae possimus magnam!
-      </p>
-      <img
-        id="photo2"
-        src="./public/images/pardin1.jpg"
-        class="livrephoto2 shadow-lg"
-        alt="..."
-      />
-      <p>
-        Torem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
-        sunt mollitia consectetur perspiciatis vel, rerum optio atque
-        praesentium aperiam dicta eius facere qui, obcaecati quis provident,
-        commodi nihil! Iusto voluptates, eum atque vero aliquam ad reiciendis
-        dolorem odit id assumenda illum cumque recusandae possimus eius
-        dignissimos doloremque accusantium ipsum, earum perspiciatis dicta harum
-        voluptatibus nulla. Quia doloremque, nostrum voluptate nulla voluptatum,
-        perferendis est excepturi suscipit et illum nemo mollitia vitae ab
-        nesciunt eius? Quidem quaerat nemo illum officia debitis, eius illo.
-        Architecto natus ex laudantium tenetur facilis laboriosam modi eius
-        ullam praesentium voluptatem. Perspiciatis sapiente nobis explicabo quas
-        magnam aliquid neque accusantium dolorum? Tenetur vitae quis, rem neque
-        unde voluptate consequatur a perspiciatis et porro dolore minima,
-        asperiores commodi rerum laboriosam, ratione accusantium harum suscipit
-        libero quibusdam? Atque dolorem aut molestiae esse, sequi mollitia
-        dignissimos corrupti corporis ipsam asperiores non tenetur aspernatur
-        natus similique autem placeat recusandae possimus magnam!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
-        sunt mollitia consectetur perspiciatis vel, rerum optio atque
-        praesentium aperiam dicta eius facere qui, obcaecati quis provident,
-        commodi nihil! Iusto voluptates, eum atque vero aliquam ad reiciendis
-        dolorem odit id assumenda illum cumque recusandae possimus eius
-        dignissimos doloremque accusantium ipsum, earum perspiciatis dicta harum
-        voluptatibus nulla. Quia doloremque, nostrum voluptate nulla voluptatum,
-        perferendis est excepturi suscipit et illum nemo mollitia vitae ab
-        nesciunt eius? Quidem quaerat nemo illum officia debitis, eius illo.
-        Architecto natus ex laudantium tenetur facilis laboriosam modi eius
-        ullam praesentium voluptatem. Perspiciatis sapiente nobis explicabo quas
-        magnam aliquid neque accusantium dolorum? Tenetur vitae quis, rem neque
-        unde voluptate consequatur a perspiciatis et porro dolore minima,
-        asperiores commodi rerum laboriosam, ratione accusantium harum suscipit
-        libero quibusdam? Atque dolorem aut molestiae esse, sequi mollitia
-        dignissimos corrupti corporis ipsam asperiores non tenetur aspernatur
-        natus similique autem placeat recusandae possimus magnam!
-      </p>
-      <img
-        id="photo3"
-        src="./public/images/pardin1.jpg"
-        class="livrephoto3 shadow-lg"
-        alt="..."
-      />
-      <img
-        id="photo4"
-        src="./public/images/pardin1.jpg"
-        class="livrephoto4 shadow-lg"
-        alt="..."
-      />
-      <p>
-        Zorem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
-        sunt mollitia consectetur perspiciatis vel, rerum optio atque
-        praesentium aperiam dicta eius facere qui, obcaecati quis provident,
-        commodi nihil! Iusto voluptates, eum atque vero aliquam ad reiciendis
-        dolorem odit id assumenda illum cumque recusandae possimus eius
-        dignissimos doloremque accusantium ipsum, earum perspiciatis dicta harum
-        voluptatibus nulla. Quia doloremque, nostrum voluptate nulla voluptatum,
-        perferendis est excepturi suscipit et illum nemo mollitia vitae ab
-        nesciunt eius? Quidem quaerat nemo illum officia debitis, eius illo.
-        Architecto natus ex laudantium tenetur facilis laboriosam modi eius
-        ullam praesentium voluptatem. Perspiciatis sapiente nobis explicabo quas
-        magnam aliquid neque accusantium dolorum? Tenetur vitae quis, rem neque
-        unde voluptate consequatur a perspiciatis et porro dolore minima,
-        asperiores commodi rerum laboriosam, ratione accusantium harum suscipit
-        libero quibusdam? Atque dolorem aut molestiae esse, sequi mollitia
-        dignissimos corrupti corporis ipsam asperiores non tenetur aspernatur
-        natus similique autem placeat recusandae possimus magnam!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
-        voluptate ratione delectus praesentium. Odit modi dicta obcaecati
-        consequatur provident aspernatur, ipsum doloremque nobis praesentium
-        consequuntur officiis illum voluptates illo dolore fugiat neque quasi
-        cumque molestias aperiam laboriosam rem quod, odio blanditiis explicabo!
-        Aut libero a fuga quod inventore provident itaque praesentium, tempora
-        atque numquam doloribus non quia dolorem laborum quam vel pariatur
-        similique deserunt accusamus. Ut deserunt soluta ducimus, mollitia minus
-        nisi esse et id reprehenderit, voluptates similique cupiditate nemo quam
-        earum deleniti? Magnam dicta quis tempora modi inventore cumque qui ea
-        ab, adipisci voluptates quos. Aperiam tenetur magnam voluptate fuga
-        obcaecati natus beatae quaerat, corrupti iure dolore. Inventore, vitae
-        earum incidunt laborum tenetur eum excepturi hic magnam ipsa cum quo
-        blanditiis quia quidem nobis neque voluptatum molestiae a aspernatur
-        sequi officia autem animi voluptatem? Qui aspernatur animi harum ullam
-        exercitationem. Ab placeat hic deserunt aliquid in laudantium ut? Ullam?
-      </p>
-    </section>
-
-    <div class="container-fluid bandeau-espace3">
       <div
-        class="contactezmoi container d-flex flex-column justify-content-center align-items-center flex-wrap"
+        style="
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
       >
-        <h2 class="fs-4">
-          Commander mon autobiographie "Pardine"
-        </h2>
-        <p class="contactezmoi-info">
-          Merci de me contacter par <a href="mailto:">mail</a> ou par
-          <a href="tel:">telephonne</a>.
+        <hr
+          style="
+            height: 1px;
+            width: 50%;
+            border-width: 0;
+            color: gray;
+            background-color: gray;
+          "
+        />
+      </div>
+      <section class="conclusion">
+        <div class="conclusion-conteneur">
+          <div class="remerciement">
+            <h3>Remerciements</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              sequi ipsa vel unde, atque vero ullam mollitia cupiditate porro,
+              molestias quos sed voluptates iusto alias dolorem laborum. Maxime
+              reprehenderit distinctio praesentium, tenetur blanditiis aperiam
+              ipsa tempora impedit consequatur ut vero laboriosam ipsum libero
+              placeat temporibus dolore a sit! Amet, consequuntur.
+            </p>
+          </div>
+          <div class="apti-conteneur">
+            <p>
+              Association
+              <a href="https://www.aptialpha.com/" target="_blank">A.P.T.I</a>
+            </p>
+            <img src="./public/img/apti_logo.jpg" alt="logo apti" />
+          </div>
+        </div>
+      </section>
+      <div class="entete-espace" style="height: 100px"></div>
+      <!-- <section class="contact-form">
+        <h2>Contactez-nous</h2>
+        <form id="form_contact" method="POST" action="/public/php/email.php">
+          <label>Votre email</label>
+          <input type="email" name="email" required />
+          <label>Message</label>
+          <textarea name="message" required></textarea>
+          <input type="submit" />
+        </form>
+      </section>-->
+    
+    <footer>
+      <div class="footer-conteneur">
+        <div class="footer-contact">
+          <p>Roger Mathieu</p>
+          <p>
+            Mail:
+            <a href="mailto:mathieuroger30@gmail.com"
+              ><span>mathieuroger30@gmail.com</span></a
+            >
+          </p>
+          <p>
+            Téléphonne:
+            <a href="tel:+33614471114"><span>06.14.47.11.14</span></a>
+          </p>
+          <p>Nîmes</p>
+        </div>
+        <div class="footer-central">
+          <div>
+            
+          </div>
+          <div></div>
+        </div>
+        <div class="footer-liens">
+          <p><strong>Liens :</strong></p>
+         <a href="https://www.aptialpha.com/" target="_blank">Association A.P.T.I</a>
+        
+          <p></p>
+        </div>
+      </div>
+      <div class="info-dev">
+        <p>
+          Site créé par
+          <a href="https://nicolas-kwiatkowski.fr/" target="_blank"
+            ><span>Nicolas Kwiatkowski</span></a
+          >
         </p>
-      </div>
-    </div>
-
-    <section class="bottom container shadow p-5">
-      <h2>(info pour roger : autre ? association ? remerciment?)</h2>
-      <p>
-        Zorem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
-        sunt mollitia consectetur perspiciatis vel, rerum optio atque
-        praesentium aperiam dicta eius facere qui, obcaecati quis provident,
-        commodi nihil! Iusto voluptates, eum atque vero aliquam ad reiciendis
-        dolorem odit id assumenda illum cumque recusandae possimus eius
-        dignissimos doloremque accusantium ipsum, earum perspiciatis dicta harum
-        voluptatibus nulla. Quia doloremque, nostrum voluptate nulla voluptatum,
-        perferendis est excepturi suscipit et illum nemo mollitia vitae ab
-        nesciunt eius? Quidem quaerat nemo illum officia debitis, eius illo.
-        Architecto natus ex laudantium tenetur facilis laboriosam modi eius
-        ullam praesentium voluptatem. Perspiciatis sapiente nobis explicabo quas
-        magnam aliquid neque accusantium dolorum? Tenetur vitae quis, rem neque
-        unde voluptate consequatur a perspiciatis et porro dolore minima,
-        asperiores commodi rerum laboriosam, ratione accusantium harum suscipit
-        libero quibusdam? Atque dolorem aut molestiae esse, sequi mollitia
-        dignissimos corrupti corporis ipsam asperiores non tenetur aspernatur
-        natus similique autem placeat recusandae possimus magnam!
-      </p>
-    </section>
-
-    <footer class="container-fluid">
-      <div
-        class="footer-conteneur container-fluid d-flex justify-content-around align-items-center flex-wrap"
-      >
-        <div class="p-2 m-3">Roger Mathieu</div>
-
-        <div
-          class="contact-epp p-2 m-3 d-flex flex-column justify-content-around align-items-start flex-wrap"
-        >
-          <h3 class="">Me contacter :</h3>
-          <a
-            class="contactmailtel d-block text-decoration-none text-center"
-            href=""
-            ><span class="link-primary">&#9993;</span> roger-mathieu@mail.com</a
-          >
-          <a
-            class="contactmailtel d-block text-decoration-none align-middle"
-            href=""
-          >
-            <span class="link-primary">&#9990;</span> 06.10.11.12.13</a
-          >
-        </div>
       </div>
     </footer>
   </body>
