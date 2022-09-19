@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "font-ecriture";
-  src: url("../Birthstone-Regular.ttf");
-}
-
 :root {
   --tailleMin: 351px;
   --tailleMax: 1200px;
@@ -38,8 +33,6 @@
     float: none !important;
     margin: 80px auto 40px auto !important;
   }
-
-
 }
 
 * {
@@ -47,7 +40,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Times, "Times New Roman", serif;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: rgb(78, 68, 53);
 }
 .rouge {
@@ -588,7 +581,7 @@ p::first-letter {
   text-indent: 50px;
   text-align: justify;
   /* color: rgb(46, 80, 125);*/
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: Arial, sans-serif;
 }
 
 .presentation-texte-conteneur p::first-letter {
@@ -598,7 +591,7 @@ p::first-letter {
   line-height: 1;
 }
 .presentation-texte-conteneur strong {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: Arial, sans-serif;
 }
 .color-bleu {
   color: rgb(46, 80, 125);
@@ -815,6 +808,7 @@ footer {
   scroll-snap-type: x mandatory;
   scroll-padding-left: 0 50%;
   backdrop-filter: blur(7px);
+  /* padding: 100px 0 100px 0;*/
 }
 .slide {
   position: relative;
@@ -826,21 +820,32 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 10px;
+  /*padding: 50px 10px;*/
   pointer-events: none;
 }
 .slide:hover {
   padding: 10px 10px;
 
+  /*align-items: stretch;*/
 }
 
 .slide img {
-  /*display: block;*/
-
+  display: block;
   max-width: 100%;
   max-height: 100%;
+
   border: 5px solid white;
   pointer-events: auto;
+}
+.slide img:hover{  
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  /*  top: 0;
+    bottom: 0;*/
+    object-fit: contain;
+    border: none;
 }
 
 #pre-slide,
@@ -867,5 +872,6 @@ footer {
 #pre-slide {
   left: 25px;
 }
-
 /****************************************/
+
+

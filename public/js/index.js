@@ -24,11 +24,16 @@ const Scroll_pre = () => {
 
 btn_sui_Scroll.onclick = function () {
   Scroll_sui();
-  clearInterval(interval_Slide);
-  interval_Slide = setInterval(Scroll_sui, 7000);
+  /*clearInterval(interval_Slide);
+  interval_Slide = setInterval(Scroll_sui, 7000);*/
 };
 btn_pre_Scroll.onclick = function () {
   Scroll_pre();
-  clearInterval(interval_Slide);
-  interval_Slide = setInterval(Scroll_sui, 7000);
+/*  clearInterval(interval_Slide);
+  interval_Slide = setInterval(Scroll_sui, 7000);*/
 };
+/********************************/
+
+/*const clickslider=(e)=>{
+e.
+}*/
