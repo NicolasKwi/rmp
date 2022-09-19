@@ -138,7 +138,8 @@ p::first-letter {
 .bandeau_entete .contact-auteur > a {
   text-decoration: none;
   color: #0d6efd;
-}
+
+  text-align: left;}
 
 .bandeau_entete .contact-auteur .mail-entete {
   min-width: 276px;
@@ -570,12 +571,16 @@ p::first-letter {
   position: relative;
   /* width: 80%; */
   backdrop-filter: blur(5px);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);
+
 }
 .photo-roger {
   display: block;
   width: 300px;
   float: right;
   margin: 55px 40px 40px 40px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 .presentation-texte-conteneur p {
   margin: 30px;
@@ -821,7 +826,7 @@ footer {
   flex: 0 0 100%;
 
   width: 100%;
-  /* transition: 0.5s;*/
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -833,10 +838,11 @@ footer {
   display: block;
   max-width: 100%;
   max-height: 100%;
-
+ 
   border: 5px solid white;
   cursor: pointer;
   /* pointer-events: auto;*/
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 .clickSliderImg {
   position: absolute;
@@ -846,6 +852,7 @@ footer {
   bottom: 0;
   object-fit: contain;
   border: none !important;
+
 }
 
 #pre-slide,
