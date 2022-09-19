@@ -30,6 +30,13 @@ const Scroll_sui = () => {
   }
 };
 let interval_Slide = setInterval(Scroll_sui, 7000);
+
+sliders_cible.addEventListener("scroll", () => {
+  imgs_Slider_Init();
+  clearInterval(interval_Slide);
+  interval_Slide = setInterval(Scroll_sui, 7000);
+});
+
 const Scroll_pre = () => {
   imgs_Slider_Init();
   let scrollX2 = sliders_cible.scrollLeft - sliders_cible.offsetWidth;
