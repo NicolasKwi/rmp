@@ -821,14 +821,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*padding: 50px 10px;*/
-  pointer-events: none;
+  padding: 50px 10px;
+ /* pointer-events: none;*/
 }
-.slide:hover {
-  padding: 10px 10px;
 
-  /*align-items: stretch;*/
-}
 
 .slide img {
   display: block;
@@ -836,17 +832,17 @@ footer {
   max-height: 100%;
 
   border: 5px solid white;
-  pointer-events: auto;
+  cursor: pointer;
+ /* pointer-events: auto;*/
 }
-.slide img:hover{  
- 
+.clickSliderImg{   
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     bottom: 0; 
     object-fit: contain;
-    border: none;
+    border: none !important;
 }
 
 #pre-slide,
