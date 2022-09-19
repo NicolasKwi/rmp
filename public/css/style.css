@@ -316,6 +316,7 @@ p::first-letter {
 }
 .details-livre p {
   color: rgb(46, 80, 125);
+  font-size: 1.2rem;
 }
 .details-livre p:first-child {
   font-style: italic;
