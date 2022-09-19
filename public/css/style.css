@@ -806,8 +806,7 @@ footer {
   scrollbar-width: none;
   height: 750px;
   /* min-height: 300px;*/
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: 0 50%;
+  scroll-snap-type: x mandatory; 
   backdrop-filter: blur(7px);
   /* padding: 100px 0 100px 0;*/
 }
