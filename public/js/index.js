@@ -2,6 +2,7 @@ const btn_pre_Scroll = document.getElementById("pre-slide");
 const btn_sui_Scroll = document.getElementById("sui-slide");
 const sliders_cible = document.getElementById("slides_conteneur");
 const imgs_slider = document.querySelectorAll(".slides img");
+const button_to_top = document.getElementById("button_scroll_totop");
 
 imgs_slider.forEach((element) => {
   element.addEventListener("click", () => {
@@ -67,3 +68,23 @@ btn_pre_Scroll.onclick = function () {
   interval_Slide = setInterval(Scroll_sui, 7000);
 };
 /********************************/
+const button_scroll_top = () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+};
+
+let time_button_top;
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 1000) {
+    button_to_top.style.display = "flex";
+    button_to_top.classList.add("button_affichage");
+    clearTimeout(time_button_top);
+    time_button_top = setTimeout(() => {
+      button_to_top.classList.remove("button_affichage");
+    }, 3000);
+  }
+});

@@ -26,6 +26,7 @@
   .slides {
     height: 100vh !important;
   }
+
 }
 
 @media (max-width: 678px) {
@@ -64,6 +65,36 @@ p::first-letter {
   font-weight: bold;
 }*/
 
+.button_top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 20;
+
+  background-color: rgb(78, 68, 53);
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  filter: opacity(0%);
+   transition: filter 1.5s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+}
+.button_affichage{
+ /* display: flex;*/
+  filter: opacity(100%);
+  transition: filter 0s;
+}
+.button_top img {
+  height: 40px;
+  width: 40px;
+}
+
+/******/
 .container-header {
   /*background-image: url("../img/ecrivain.jpg");*/
   background-image: url("../img/world-g0576bffad_1920.webp");
@@ -103,9 +134,11 @@ p::first-letter {
 
 .bandeau_entete .def-auteur {
   margin: 20px;
+  font-size: 1.25rem;
 }
 .bandeau_entete .def-auteur span {
   white-space: nowrap;
+  font-size: 1.25rem;
 }
 .bandeau_entete .titre-livre {
   flex-grow: 1;
@@ -139,7 +172,8 @@ p::first-letter {
   text-decoration: none;
   color: #0d6efd;
 
-  text-align: left;}
+  text-align: left;
+}
 
 .bandeau_entete .contact-auteur .mail-entete {
   min-width: 276px;
@@ -290,7 +324,7 @@ p::first-letter {
 }
 .img-pardine-couverture {
   height: 250px;
-  margin: 0px 0px;
+  margin: 20px 20px;
   box-shadow: 0 1rem 3rem rgba(128, 128, 128, 0.2);
   border: 5px solid white;
 }
@@ -341,6 +375,7 @@ p::first-letter {
   font-size: larger;
   margin-bottom: 20px;
 }
+
 .vente-livre p {
   text-align: center;
 }
@@ -370,6 +405,7 @@ p::first-letter {
 .revue-presse h3 {
   text-align: center;
   text-decoration: underline;
+  font-size: 1.25rem;
 }
 .revue-presse .revue-presse-conteneur {
   display: flex;
@@ -506,7 +542,7 @@ p::first-letter {
   background-image: url("../img/ecrivain.webp");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center bottom var(--parallaxY, 0px);
+  background-position: center;
   height: auto;
   width: 100%;
 }
@@ -567,13 +603,13 @@ p::first-letter {
   margin: 0px auto;
   max-width: var(--tailleMax);
   min-height: 300px;
-  padding: 24px;
+  padding: 10px;
   position: relative;
   /* width: 80%; */
   backdrop-filter: blur(5px);
   border-radius: 5px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);
-
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);*/
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .photo-roger {
   display: block;
@@ -583,7 +619,7 @@ p::first-letter {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 .presentation-texte-conteneur p {
-  margin: 30px;
+  margin: 30px 20px;
   text-indent: 50px;
   text-align: justify;
   /* color: rgb(46, 80, 125);*/
@@ -615,7 +651,7 @@ p::first-letter {
 }
 .apercu-conteneur {
   max-width: var(--tailleMax);
-  padding: 50px;
+  padding: 50px 10px;
   margin: 0px auto;
   background-image: url("../img/paper_texture_08.webp");
   background-size: 100% auto;
@@ -629,6 +665,7 @@ p::first-letter {
 }
 .apercu-conteneur p {
   text-indent: 50px;
+  margin: 30px 20px;
 }
 .apercu-conteneur p::first-letter {
   font-size: 1.5em;
@@ -838,7 +875,7 @@ footer {
   display: block;
   max-width: 100%;
   max-height: 100%;
- 
+
   border: 5px solid white;
   cursor: pointer;
   /* pointer-events: auto;*/
@@ -852,7 +889,6 @@ footer {
   bottom: 0;
   object-fit: contain;
   border: none !important;
-
 }
 
 #pre-slide,
