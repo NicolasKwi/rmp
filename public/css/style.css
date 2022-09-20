@@ -26,7 +26,6 @@
   .slides {
     height: 100vh !important;
   }
-
 }
 
 @media (max-width: 678px) {
@@ -81,13 +80,13 @@ p::first-letter {
   align-items: center;
   cursor: pointer;
   filter: opacity(0%);
-   transition: filter 1.5s;
+  transition: filter 1.5s;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+
 }
-.button_affichage{
- /* display: flex;*/
+.button_affichage {
   filter: opacity(100%);
-  transition: filter 0s;
+  transition: all 0s;
 }
 .button_top img {
   height: 40px;

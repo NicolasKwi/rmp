@@ -77,6 +77,7 @@ const button_scroll_top = () => {
 };
 
 let time_button_top;
+let time_button_top_display;
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1000) {
@@ -86,5 +87,9 @@ window.addEventListener("scroll", () => {
     time_button_top = setTimeout(() => {
       button_to_top.classList.remove("button_affichage");
     }, 3000);
+    clearTimeout(time_button_top_display);
+    time_button_top_display = setTimeout(() => {
+      button_to_top.style.display = "none";
+    }, 4500);
   }
 });
