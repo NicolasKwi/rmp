@@ -467,7 +467,7 @@ p::first-letter {
   /* background-color: rgb(240, 236, 228);*/
   /*background-color: rgba(240, 236, 228, 0.377);*/
   background-image: url("../img/cameraphoto1.webp");
-  background-size: 100% cover;
+  background-size: cover;
 
   background-attachment: fixed;
 }
@@ -609,6 +609,14 @@ p::first-letter {
   /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);*/
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+.presentation-texte-conteneur h2 {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
 .photo-roger {
   display: block;
   width: 300px;
@@ -643,6 +651,7 @@ p::first-letter {
   text-align: center;
   text-decoration: underline;
   font-size: 1.25rem;
+  margin: 20px;
 }
 .commentaire_livre_conteneur {
   display: flex;
