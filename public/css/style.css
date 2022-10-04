@@ -195,12 +195,12 @@ p::first-letter {
   /* max-width: var(--tailleMax);*/
   margin: 30px auto 50px auto;
   padding: 0px 10px 0px 10px;
-  gap: 30px 200px;
+  gap: 50px 200px;
 }
 /* ************************* */
 /*livre 3D*/
 .contenu-livre {
-  max-width: 400px;
+  max-width: 500px;
   position: relative;
   margin: 40px 0;
   display: flex;
@@ -339,7 +339,8 @@ p::first-letter {
 }
 
 .details-livre {
-  margin-top: 35px;
+  max-width: 300px;
+  margin: 35px auto;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(5px);
   padding: 15px 20px;
@@ -349,11 +350,31 @@ p::first-letter {
 }
 .details-livre p {
   color: rgb(46, 80, 125);
-  font-size: 1.2rem;
-}
-.details-livre p:first-child {
-  font-style: italic;
+  font-size: 1.3rem;
   text-align: center;
+}
+.details-livre div {
+  /*max-width: 120px;*/
+  width: fit-content;
+  margin: 0 auto;
+}
+.details-livre div p {
+  text-align: left;
+}
+.details-livre div p strong {
+  color: rgb(197, 0, 0);
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.details-livre .details-livre_top {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.details-livre .details-livre_bottom {
+  margin-top: 20px;
+  font-style: italic;
   font-size: 0.9em;
 }
 .vente-livre {
@@ -643,7 +664,7 @@ p::first-letter {
 }
 .commentaire_livre {
   margin: 50px 0px;
-  padding: 25px;
+  padding: 25px 0;
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.432);
 }
@@ -680,9 +701,9 @@ p::first-letter {
 }
 .commentaire_livre_carte_texte q {
   display: inline-block;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   color: rgb(46, 80, 125);
-  /*text-align: justify;*/
+  text-align: justify;
 }
 
 .commentaire_livre_carte_auteur {
@@ -692,6 +713,8 @@ p::first-letter {
 }
 .commentaire_livre_carte_auteur p {
   font-size: 0.9rem;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .color-bleu {
@@ -941,13 +964,14 @@ footer {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 .clickSliderImg {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
-  top: 0;
-  bottom: 0;
+  top: 0px;
+  bottom: 0px;
   object-fit: contain;
   border: none !important;
+  /* background-color: white;*/
 }
 
 #pre-slide,

@@ -9,8 +9,10 @@ imgs_slider.forEach((element) => {
     element.classList.toggle("clickSliderImg");
     if (element.classList.contains("clickSliderImg")) {
       clearInterval(interval_Slide);
+
     } else {
       interval_Slide = setInterval(Scroll_sui, 7000);
+ 
     }
   });
 });
@@ -48,12 +50,6 @@ const Scroll_pre = () => {
     sliders_cible.scrollLeft = scrollX2;
   }
 };
-
-sliders_cible.addEventListener("scroll", () => {
-  imgs_Slider_Init();
-  clearInterval(interval_Slide);
-  interval_Slide = setInterval(Scroll_sui, 7000);
-});
 
 /**/
 
