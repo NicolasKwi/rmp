@@ -745,6 +745,10 @@ p::first-letter {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 3px;
 }
+.apercu-conteneur h3{
+  text-align: center;
+}
+
 .apercu-conteneur p {
   text-indent: 50px;
   margin: 30px 20px;
