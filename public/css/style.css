@@ -728,6 +728,7 @@ p::first-letter {
 .apercu h2 {
   max-width: var(--tailleMax);
   margin: 40px auto;
+  padding-left: 20px;
   text-decoration: underline;
   font-size: 1.5rem;
 }
@@ -751,7 +752,8 @@ p::first-letter {
 
 .apercu-conteneur p {
   text-indent: 50px;
-  margin: 30px 20px;
+  margin: 15px;
+  text-align: justify;
 }
 .apercu-conteneur p::first-letter {
   font-size: 1.5em;
