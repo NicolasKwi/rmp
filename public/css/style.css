@@ -33,6 +33,10 @@
     float: none !important;
     margin: 80px auto 40px auto !important;
   }
+  .photo-denis {
+    float: none !important;
+    margin: 50px auto 40px auto !important;
+  }
 }
 
 * {
@@ -645,6 +649,13 @@ p::first-letter {
   margin: 55px 40px 40px 40px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
+.photo-denis {
+  display: block;
+  width: 270px;
+  float: left;
+  margin: 45px 30px 30px 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+}
 .presentation-texte-conteneur p {
   margin: 30px 20px;
   text-indent: 50px;
@@ -746,7 +757,7 @@ p::first-letter {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 3px;
 }
-.apercu-conteneur h3{
+.apercu-conteneur h3 {
   text-align: center;
 }
 
