@@ -190,6 +190,31 @@ p::first-letter {
   height: 100px;
 }*/
 /* ************************* */
+.affiche_prix {
+  width: fit-content;
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.3),
+    10px 0px 10px rgba(128, 128, 128, 0.3), 10px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.affiche_prix_p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: rgb(46, 80, 125);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);*/
+}
+
+.affiche_prix svg {
+  display: block;
+  margin: 0 auto;
+  width: 36px;
+  height: 51px;
+}
+
 .livre-pardine {
   display: flex;
   justify-content: center;
@@ -345,9 +370,11 @@ p::first-letter {
 .details-livre {
   max-width: 300px;
   margin: 35px auto;
+
+  font-size: 0.9em;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(5px);
-  padding: 15px 20px;
+  padding: 15px 20px 25px 20px;
   border-radius: 5px;
   box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.3),
     10px 0px 10px rgba(128, 128, 128, 0.3), 10px 0px 5px rgba(0, 0, 0, 0.2);
@@ -376,11 +403,7 @@ p::first-letter {
   font-style: italic;
   font-size: 0.9em;
 }
-.details-livre .details-livre_bottom {
-  margin-top: 20px;
-  font-style: italic;
-  font-size: 0.9em;
-}
+
 .vente-livre {
   background-color: rgba(255, 255, 255, 0.8);
   /*background-color: rgba(255, 255, 255, 0.5);*/
